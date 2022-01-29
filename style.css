@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: grey;
+}
+h1{
+    text-align: center;
+    color: white;
+    margin-top: 200px;
+}
+p{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+nav{
+    background-color: orange;
+   margin-top: 50px;
+
+
+}
+ nav ul li{
+    display: inline-block;
+ }
+nav a{
+    text-decoration: none;
+    color: white;
+}
+a{
+    line-height: 100px;
+    display: block;
+    padding: 0px 50px;
+}
+nav ul ul{
+    display: none;
+    position: absolute;
+   
+} 
+nav ul{
+    position: relative;
+     list-style: none;
+
+}
+nav ul li:hover >ul{
+    display: inherit;
+
+}
+nav ul ul li{
+    display: list-item;
+    background-color: orange;
+    padding: 0;
+    list-style: none;
+    width: 185px;
+
+}
+.enumeration:hover{
+    background-color: black;
+    width: auto;
+   
+  
+}
+.other-enumeration{
+    position: relative;
+    left: 185px;
+    top: -100px;
+
+}
+   
+li li:hover{
+    list-style: none;
+    background-color:grey;
+    wdiht: 185px;
+
+}
